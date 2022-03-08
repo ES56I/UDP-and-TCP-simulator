@@ -10,7 +10,7 @@ import time
 
 #PORT DEFINITION 
 
-serverName = '34.69.60.253'
+serverName = 'localhost'
 
 # serverName = '127.0.0.1'
 

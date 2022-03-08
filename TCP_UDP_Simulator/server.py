@@ -14,7 +14,7 @@ serverPort = 12000
 serverSocket = socket(AF_INET, SOCK_DGRAM)
 
 # Bind the socket to server address and server port
-serverSocket.bind(('127.0.0.1', serverPort))
+serverSocket.bind(('localhost', serverPort))
 
 #Sets timeout to occur after 3 seconds from last response
 serverSocket.settimeout(3)
